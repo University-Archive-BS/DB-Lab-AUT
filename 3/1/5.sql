@@ -1,0 +1,4 @@
+WAITFOR DELAY '00:00:10';
+SELECT *
+FROM persons
+WHERE City LIKE 'S%';
